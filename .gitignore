@@ -1,0 +1,29 @@
+# Build output
+/devtrace
+
+# AI tooling
+CLAUDE.md
+
+# Local config (contains API key — never commit)
+config.toml
+
+# Generated report
+REPORT.md
+
+# Documentation
+docs/
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
